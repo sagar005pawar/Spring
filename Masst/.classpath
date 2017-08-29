@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="E:/DASDM/Softwares/JavaEE/jar files/Spring Library/Spring-4.1.6-jars(IMP)/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="E:/DASDM/Softwares/JavaEE/jar files/Spring Library/Spring-4.1.6-jars(IMP)/org.springframework.security.web-3.1.1.release.jar"/>
+	<classpathentry kind="lib" path="E:/DASDM/Softwares/JavaEE/jar files/Spring Library/Spring-4.1.6-jars(IMP)/spring-aop-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/DASDM/Softwares/JavaEE/jar files/Spring Library/Spring-4.1.6-jars(IMP)/spring-aspects-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/DASDM/Softwares/JavaEE/jar files/Spring Library/Spring-4.1.6-jars(IMP)/spring-beans-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/DASDM/Softwares/JavaEE/jar files/Spring Library/Spring-4.1.6-jars(IMP)/spring-context-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/DASDM/Softwares/JavaEE/jar files/Spring Library/Spring-4.1.6-jars(IMP)/spring-context-support-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/DASDM/Softwares/JavaEE/jar files/Spring Library/Spring-4.1.6-jars(IMP)/spring-core-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/DASDM/Softwares/JavaEE/jar files/Spring Library/Spring-4.1.6-jars(IMP)/spring-expression-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/DASDM/Softwares/JavaEE/jar files/Spring Library/Spring-4.1.6-jars(IMP)/spring-instrument-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/DASDM/Softwares/JavaEE/jar files/Spring Library/Spring-4.1.6-jars(IMP)/spring-instrument-tomcat-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/DASDM/Softwares/JavaEE/jar files/Spring Library/Spring-4.1.6-jars(IMP)/spring-jdbc-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/DASDM/Softwares/JavaEE/jar files/Spring Library/Spring-4.1.6-jars(IMP)/spring-jms-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/DASDM/Softwares/JavaEE/jar files/Spring Library/Spring-4.1.6-jars(IMP)/spring-messaging-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/DASDM/Softwares/JavaEE/jar files/Spring Library/Spring-4.1.6-jars(IMP)/spring-orm-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/DASDM/Softwares/JavaEE/jar files/Spring Library/Spring-4.1.6-jars(IMP)/spring-oxm-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/DASDM/Softwares/JavaEE/jar files/Spring Library/Spring-4.1.6-jars(IMP)/spring-test-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/DASDM/Softwares/JavaEE/jar files/Spring Library/Spring-4.1.6-jars(IMP)/spring-tx-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/DASDM/Softwares/JavaEE/jar files/Spring Library/Spring-4.1.6-jars(IMP)/spring-web-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/DASDM/Softwares/JavaEE/jar files/Spring Library/Spring-4.1.6-jars(IMP)/spring-webmvc-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/DASDM/Softwares/JavaEE/jar files/Spring Library/Spring-4.1.6-jars(IMP)/spring-webmvc-portlet-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/DASDM/Softwares/JavaEE/jar files/Spring Library/Spring-4.1.6-jars(IMP)/spring-websocket-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/DASDM/Softwares/JavaEE/jar files/Spring Library/Spring-4.1.6-jars(IMP)/mail.jar"/>
+	<classpathentry kind="lib" path="E:/DASDM/Softwares/JavaEE/jar files/mysql-connector-java-5.1.34-bin.jar"/>
+	<classpathentry kind="lib" path="E:/DASDM/Softwares/JavaEE/jar files/Hibernate steps lib/hibernatejar(JavaTPoint)/ojdbc14.jar"/>
+	<classpathentry kind="lib" path="E:/DASDM/Softwares/JavaEE/jar files/Hibernate steps lib/hibernatejar(JavaTPoint)/xerces-2.6.2.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
