@@ -13,7 +13,7 @@ public class Profile{
 	   private Student student;
 	   
 	   public Profile(){
-	      System.out.println("Inside Profile constructor." );
+	      System.out.println("Profile constructor." );
 	   }
 	   
 	   public void printAge() {

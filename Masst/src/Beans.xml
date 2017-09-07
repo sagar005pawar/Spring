@@ -24,7 +24,7 @@
 
    	<!-- Definition for student2 bean -->
    	<bean id = "student2" class = "${student}">
-      <property name = "name" value = "Nuha" />
+      <property name = "name" value = "Neha" />
       <property name = "age" value = "2"/>
    	</bean>  
 

@@ -9,9 +9,10 @@ public class Test {
 		@SuppressWarnings("resource")
 		ApplicationContext factory = new ClassPathXmlApplicationContext("/com/DIwithWrapper/DIwithWrapper.xml");
 		
-		Student student=(Student)factory.getBean("studentbean");
+		Student student = (Student)factory.getBean("studentbean");
 				
 		System.out.println(student);
 		
 	}
 }
+

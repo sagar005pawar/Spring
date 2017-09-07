@@ -13,9 +13,9 @@ public class Test {
 //		Resource resource=new ClassPathResource("firstSpring.xml");
 //		BeanFactory factory=new XmlBeanFactory(resource);
 		
-		ApplicationContext factory = new ClassPathXmlApplicationContext("/com/FirstSpring/firstSpring.xml");
+		ApplicationContext context = new ClassPathXmlApplicationContext("/com/FirstSpring/firstSpring.xml");
 		
-		Student student=(Student)factory.getBean("studentbean");
+		Student student = (Student)context.getBean("studentbean");
 				
 		System.out.println(student);
 		

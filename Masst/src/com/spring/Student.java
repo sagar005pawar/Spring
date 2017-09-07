@@ -6,7 +6,7 @@ public class Student {
 	   private String name;
 	   
 	   public Student(){
-		   System.out.println("Student Controller");
+		   System.out.println("Student Constructor");
 	   }
 
 	   public void setAge(Integer age) {

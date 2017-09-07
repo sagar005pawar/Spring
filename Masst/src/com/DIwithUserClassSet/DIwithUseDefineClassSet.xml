@@ -5,45 +5,45 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
 
 <!-- 		
-	<bean id="address1" class="com.DIwithUserClass.Address">
+	<bean id="address1" class="com.DIwithUserClassSet.Address">
 	    <constructor-arg value="Pune" />
 	</bean> 
-	<bean id="address2" class="com.DIwithUserClass.Address">
+	<bean id="address2" class="com.DIwithUserClassSet.Address">
 	    <constructor-arg value="Thane" />
 	</bean> 
-		<bean id="address3" class="com.DIwithUserClass.Address">
+		<bean id="address3" class="com.DIwithUserClassSet.Address">
 	    <constructor-arg value="Dhule" />
 	</bean> 
-    <bean id="studentbean" class="com.DIwithUserClass.Student">
+    <bean id="studentbean" class="com.DIwithUserClassSet.Student">
 	    <constructor-arg value="Sagar Pawar" type="String" />
 	   	<constructor-arg>
-	   	    <list>
+	   	    <set>
 	   	        <ref bean="address1" />
 	   	        <ref bean="address2" />
 	   	        <ref bean="address3" />
-	   	    </list>
+	   	    </set>
 	   	</constructor-arg>
 	</bean>	
  -->
 
 
-	<bean id="address1" class="com.DIwithUserClass.Address">
+	<bean id="address1" class="com.DIwithUserClassSet.Address">
 	    <property name="city" value="Pune"></property>
 	</bean> 
-	<bean id="address2" class="com.DIwithUserClass.Address">
+	<bean id="address2" class="com.DIwithUserClassSet.Address">
 	    <property name="city" value="Thane"></property>	    
 	</bean> 
-	<bean id="address3" class="com.DIwithUserClass.Address">
+	<bean id="address3" class="com.DIwithUserClassSet.Address">
 	    <property name="city" value="Dhule"></property>
 	</bean>   
-    <bean id="studentbean" class="com.DIwithUserClass.Student">
+    <bean id="studentbean" class="com.DIwithUserClassSet.Student">
 		<property name="name" value="Sagar Pawar"></property>
 		<property name="address">
-	   	    <list>
+	   	    <set>
 	   	        <ref bean="address1" />
 	   	        <ref bean="address2" />
 	   	        <ref bean="address3" />
-	   	    </list>
+	   	    </set>
 		</property>
 	</bean>  
  

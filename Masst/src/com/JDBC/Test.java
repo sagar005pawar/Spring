@@ -8,10 +8,10 @@ public class Test {
 
 	public static void main(String[] args) {
 		ApplicationContext ctx=new ClassPathXmlApplicationContext("/com/JDBC/applicationContext.xml");
-		EmployeeDao dao=(EmployeeDao)ctx.getBean("edao");
-		List<Employee> list=dao.getEmployees();
+		EmployeeDao dao = (EmployeeDao)ctx.getBean("edao");
 		
-		for(Employee e:list)
-			System.out.println(e);
+		dao.getEmployees().forEach(System.out::println);
+		
 	}
 }
+

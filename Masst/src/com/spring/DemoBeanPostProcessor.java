@@ -16,5 +16,5 @@ public class DemoBeanPostProcessor implements BeanPostProcessor {
 		System.out.println("BeanPostProcessor= postProcessBeforeInitialization() " + arg1);
 		return arg0;
 	}
-
 }
+

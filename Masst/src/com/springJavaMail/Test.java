@@ -8,8 +8,9 @@ public class Test {
 		ApplicationContext context = new ClassPathXmlApplicationContext("/com/springJavaMail/applicationContext.xml");
 		MailMail m=(MailMail)context.getBean("mailMail");  
 		String sender="sagar005pawar@gmail.com";//write here sender gmail id  
-		String receiver="sunnymore29@gmail.com";//write here receiver id  
-		m.sendMail(sender,receiver,"Spring Java Mail","Welcome to Spring Java Mail, Sunny..");  		      
+		String receiver="shendge55555@gmail.com";//write here receiver id  
+		m.sendMail(sender,receiver,"Spring Java Mail","Welcome to Spring Java Mail, Suraj..");  		      
 		System.out.println("success");
 	}
 }
+

@@ -1,21 +1,28 @@
 package com.DIwithUserClassSet;
 
-import java.util.List;
+import java.util.Set;
 
 public class Student {
+	
 	private String name;
-	private List<Address> address;
-
+	private Set<Address> address;
+	
 	public String getName() {
 		return name;
 	}
 	public void setName(String name) {
 		this.name = name;
 	}
-	public List<Address> getAddress() {
+	public Set<Address> getAddress() {
 		return address;
 	}
-	public void setAddress(List<Address> address) {
+	public void setAddress(Set<Address> address) {
+		this.address = address;
+	}
+	
+	public Student(String name, Set<Address> address) {
+		super();
+		this.name = name;
 		this.address = address;
 	}
 
@@ -25,15 +32,10 @@ public class Student {
 		this.address = null;
 	}
 	
-	public Student(String name, List<Address> address) {
-		super();
-		this.name = name;
-		this.address = address;
-	}
-
 	@Override
 	public String toString() {
 		return "Student [name=" + name + ", address=" + address + "]";
 	}
 
 }
+

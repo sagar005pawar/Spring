@@ -3,6 +3,7 @@ package com.DIwithUserClassMap;
 import java.util.Map;
 
 public class Student {
+
 	private String name;
 	private Map<Integer, Address> address;
 
@@ -39,6 +40,6 @@ public class Student {
 		return "Student [name=" + name + ", address=" + address + "]";
 	}
 
-	
-
 }
+
+
